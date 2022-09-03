@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-size: 1rem;
+}
+body {
+  background-color: #e5e5e5;
+  overflow-x: hidden;
+}
+
+.active {
+  color: #c32c72 !important;
+}
+
+.nav-link:hover {
+  font-weight: bold;
+  color: #c32c72 !important;
+}
+
+.mainContainer {
+  margin: 5rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.mainContainer__headingSection {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+.mainContainer__cardsSection {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.mainContainer__cardsSection__colCard--card {
+  background-color: #f4f3ee;
+  border: 0.2rem solid #f4f3ee;
+  border-radius: 1rem;
+  margin: 1rem auto;
+  height: 21rem;
+  box-shadow: 2px 2px 10px grey;
+  width: 20rem;
+}
+.mainContainer__cardsSection__colCard--card .img {
+  width: 100%;
+  height: 15rem;
+  margin: 0 auto;
+}
+.mainContainer__cardsSection__colCard--card .img img,
+.mainContainer__cardsSection__colCard--card .img iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+.mainContainer__cardsSection__colCard--card .price,
+.mainContainer__cardsSection__colCard--card .descripton {
+  padding: 0.4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.mainContainer__cardsSection__colCard--card .price a,
+.mainContainer__cardsSection__colCard--card .descripton a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.mainContainer__cardsSection__colCard--card .price a:hover,
+.mainContainer__cardsSection__colCard--card .descripton a:hover {
+  color: #c32c72;
+}
+
+/* Form Section */
+.mainContainer__contact {
+  padding: 1rem 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Form */
+form {
+  width: 100%;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  background-color: #ffffff;
+  box-shadow: 0.1rem 0.1rem 0.4rem #ffffff;
+}
+.form-group {
+  display: flex;
+  padding: 0.5rem 0.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.form-group input,
+.form-group textarea {
+  padding: 0.5rem;
+  border: none;
+  border: 0.2rem solid #eeeeee;
+  width: 100%;
+  border-radius: 1rem;
+  font-size: 1rem;
+  color: #333333;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+  border: 0.2rem solid #000000;
+}
+.submit {
+  border: none;
+  padding: 0.5rem;
+  background-color: #6e6405;
+  font-size: 1rem;
+  color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0.1rem 0.1rem 0.5rem grey;
+  margin: 0.2rem;
+  opacity: 0.8;
+  width: 50%;
+  margin: auto;
+}
+/* Form end */
+
+/* Footer */
+.sticky {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 0;
+  width: 100%;
+}
+/* Footer rnd */
